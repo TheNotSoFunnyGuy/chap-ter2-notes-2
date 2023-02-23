@@ -24,12 +24,19 @@ const readLine = require('readLine-sync');
 //     w++;
 // }
 
-let start = 0;
-while (start <= 100){
-    if (start < 10){
-        console.log(start);
-    }else if (start > 25){
-        console.log(start);
-    }
-    start++;
+// let start = 0;
+// while (start <= 100){
+//     if (start < 10){
+//         console.log(start);
+//     }else if (start > 25){
+//         console.log(start);
+//     }
+//     start++;
+//}
+
+let answer = readLine.question("Enter y or n: ")
+while (answer != "y" && answer !="n" && answer != "YES"){
+    console.log("Invalid choice");
+    answer = readLine.question("Enter y or n: ");
 }
+console.log(`You Typed ${answer}`);
