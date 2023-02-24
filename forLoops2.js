@@ -1,3 +1,5 @@
+const readLine = require("readline-sync");
+
 //1
 // for(let i = 0; i<= 150; i++){
 //     console.log(i);
@@ -61,7 +63,10 @@
 // }
 
 //11
-
+// let positive = readLine.question("Enter a positive number: ")
+// for(let i = 0; i < positive; i++){
+//     console.log("Happy Holidays");
+// }
 
 //12
 // let sum = 0;
@@ -73,10 +78,10 @@
 // console.log(`sum: ${sum}`);
 
 //13
-let product = 1;
-for(let i = 25; i <= 50; i++){
-    if(i % 2 == 1) {
-        product += i;
-    }
-}
-console.log(`sum: ${product}`);
+// let product = 1;
+// for(let i = 25; i <= 50; i++){
+//     if(i % 2 == 1) {
+//         product += i;
+//     }
+// }
+// console.log(`sum: ${product}`);

@@ -1,6 +1,6 @@
 // Conditionals are if-statements
 
-let x=7;
+let x=5;
 if (x==5){
     console.log("it's 5!");
 }
